@@ -17,8 +17,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "bump:beta": "npm version prerelease --preid beta",
-    "publish:beta": "npm publish --tag beta",
-    "publish": "npm publish --tag latest"
+    "publish:beta": "npm publish --tag beta --access public",
+    "publish": "npm publish --tag latest --access public"
   },
   "eslintConfig": {
     "extends": [
