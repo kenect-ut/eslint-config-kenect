@@ -1,11 +1,11 @@
-# eslint-config-kenect-ut
+# eslint-config-kenect
 
 ### Project Install
 
 1. install this config
 
 ```
-npm install eslint-config-kenect-ut
+npm install eslint-config-kenect
 ```
 
 2. We need to put our eslint settings in a file in the root of your project.
@@ -14,7 +14,7 @@ npm install eslint-config-kenect-ut
 
 ```json
 "eslintConfig": {
-  "extends": ["kenect-ut"]
+  "extends": ["kenect"]
 }
 ```
 
@@ -22,15 +22,15 @@ Or put this in a `.eslintrc` file
 
 ```json
 {
-  "extends": ["kenect-ut"]
+  "extends": ["kenect"]
 }
 ```
 
-For TypeScript projects, use `kenect-ut/typescript`.
+For TypeScript projects, use `kenect/typescript`.
 
 ```json
 {
-  "extends": ["kenect-ut/typescript"]
+  "extends": ["kenect/typescript"]
 }
 ```
 
@@ -54,7 +54,7 @@ If you'd like to overwrite eslint or prettier settings, you can add the rules in
 ```js
 {
   "extends": [
-    "kenect-ut"
+    "kenect"
   ],
   "rules": {
     "no-console": 2,
@@ -89,7 +89,7 @@ If you have previously configured ESLint to run via a File Watcher, you might wa
 
 ## Issues with ESLint not formatting code
 
-If you experience issues with ESLint not formatting the code or you receive a `Parsing error: Cannot find module '@babel/preset-react` error message then you need to check that you opened the folder where you installed and configured ESLint directly in VS Code. The correct folder to open will be the one where you installed the `eslint-config-kenect-ut` npm package and where you created the `.eslintrc` file.
+If you experience issues with ESLint not formatting the code or you receive a `Parsing error: Cannot find module '@babel/preset-react` error message then you need to check that you opened the folder where you installed and configured ESLint directly in VS Code. The correct folder to open will be the one where you installed the `eslint-config-kenect` npm package and where you created the `.eslintrc` file.
 
 Opening a parent folder or child folder in your code editor will cause ESLint to fail in finding the ESLint npm packages and the formatting won't work.
 
