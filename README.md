@@ -30,7 +30,10 @@ For TypeScript projects, use `kenect/typescript`.
 
 ```json
 {
-  "extends": ["kenect/typescript"]
+  "extends": ["kenect/typescript"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
 ```
 
