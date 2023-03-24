@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kenect",
-  "version": "1.0.1-beta.2",
+  "version": "1.0.2",
   "description": "Shared eslint config for @Kenect-UT FE repos",
   "keywords": [
     "javascript",
