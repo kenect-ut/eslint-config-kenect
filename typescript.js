@@ -36,7 +36,4 @@ module.exports = {
     "no-undef": "off",
     "no-shadow": "off", // TS does it
   },
-  parserOptions: {
-    project: "./tsconfig.json",
-  },
 };
